@@ -1,0 +1,128 @@
+// apparently this template doesn't support background images out of the box
+body { 
+  background: url(http://static1.squarespace.com/static/54a2d8b1e4b043bf83110811/t/55665ed8e4b094dd1365d444/1432772312659/bg2.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// change header background color
+// and add padding
+div #headerWrapper{
+  background-color: #5C7162;
+padding: 15px 5px 40px 30px;
+display: inline-block;
+ width:97.5%;
+}
+
+// align nav to the right
+.site-alignment-left.header-navigation-normal #topNav{
+  float:right;
+  
+}
+
+// make non linked footer text black
+div.sqs-block-content{
+  color:#000000;
+  
+}
+
+// trying to get the gallery image to not float under header
+div#galleryWrapper{
+// for dev only:
+  //background-color:pink;
+  margin-top: 0px;
+  padding-top:0px;
+}
+.collection-type-gallery #backToThumbs{
+  color:#ffffff;
+  font-size: 3em;
+    top: 150px;
+  margin-right:10px;
+    background-color:#333333;
+  
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+filter: alpha(opacity=50);  /* IE 5-7 */
+-moz-opacity: 0.5;          /* Netscape */
+-khtml-opacity: 0.5;        /* Safari 1.x */
+opacity: 0.5;               /* Good browsers */
+}
+
+// align slide pictures to top of div
+.sqs-gallery-design-stacked-slide img{
+top:0px!important;
+}
+
+// reduce top margin of specific gallery block 
+div#block-yui_3_17_2_7_1432838437601_7466{
+    padding-top:0px;
+    margin-top:-18px;
+  
+}
+// Force top nav to be visible when in gallery viewing mode
+@media screen and (min-width: 830px) {
+     #topNav{
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 829px) {
+  
+//:::::EXPERIMANTEL START ::::::::
+  
+  html, body {
+  overflow-x: hidden;
+}
+  
+
+  // Sug green nav under mobile 'menu'
+  div#canvas{
+    
+    margin-top:-20px;
+  }
+     div#headerWrapper{
+        //background-color:pink;
+        
+        //margin-left: -20px;
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+  
+//:::::EXPERIMANTEL END ::::::::  
+		
+//width:101%;
+    }
+}
+
+
+// position mobile 'menu' box
+a#yui_3_17_2_2_1432846522571_1998{
+  color:#ffffff;
+   font-weight: bold;
+}
+        #mobileMenuLink{
+        background-color:#333333;
+
+        margin-top:-15px;
+        padding-top:1.1em;
+    }
+
+// change lightbox bg color
+//BACKGROUND TRANSPARENCY*
+.sqs-gallery-design-stacked { 
+background-color:#b2a787 !important;
+opacity:0. !important; filter:alpha(opacity=60) !important; 
+} 
+//the filter:alpha style is a workaround for IE that doesn't support opacity
+
+
+div#block-2e725e58344bb7b9faad.sqs-block.html-block.sqs-block-html{
+  padding-bottom:0em;
+  
+}
+//tighten area below header
+#page{
+  margin-top:5px;
+  
+}
