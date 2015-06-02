@@ -55,11 +55,12 @@ top:0px!important;
 }
 
 // reduce top margin of specific gallery block 
-div#block-yui_3_17_2_7_1432838437601_7466{
+div#block-yui_3_17_2_7_1432838437601_7466, div#block-yui_3_17_2_25_1433268537474_13310{
     padding-top:0px;
     margin-top:-18px;
   
 }
+
 // Force top nav to be visible when in gallery viewing mode
 @media screen and (min-width: 830px) {
      #topNav{
@@ -69,29 +70,24 @@ div#block-yui_3_17_2_7_1432838437601_7466{
 
 @media screen and (max-width: 829px) {
   
-//:::::EXPERIMANTEL START ::::::::
-  
-  html, body {
-  overflow-x: hidden;
-}
-  
+    //:::::stretch mobile nav to 100% START ::::::::
 
-  // Sug green nav under mobile 'menu'
-  div#canvas{
-    
-    margin-top:-20px;
-  }
-     div#headerWrapper{
-        //background-color:pink;
-        
-        //margin-left: -20px;
-  margin: 0 -9999rem;
-  /* add back negative margin value */
-  padding: 0.25rem 9999rem;
-  
-//:::::EXPERIMANTEL END ::::::::  
-		
-//width:101%;
+    html, body {
+        overflow-x: hidden;
+    }
+
+
+    // Sug green nav under mobile 'menu'
+    div#canvas{
+        margin-top:-20px;
+    }
+    div#headerWrapper{
+    //background-color:pink;// for developement
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    //:::::stretch mobile nav to 100% END ::::::::  		
+
     }
 }
 
@@ -111,16 +107,17 @@ a#yui_3_17_2_2_1432846522571_1998{
 // change lightbox bg color
 //BACKGROUND TRANSPARENCY*
 .sqs-gallery-design-stacked { 
-background-color:#b2a787 !important;
-opacity:0. !important; filter:alpha(opacity=60) !important; 
+    background-color:#b2a787 !important;
+    opacity:0. !important; filter:alpha(opacity=60) !important; 
+    //the filter:alpha style is a workaround for IE that doesn't support opacity
 } 
-//the filter:alpha style is a workaround for IE that doesn't support opacity
 
 
 div#block-2e725e58344bb7b9faad.sqs-block.html-block.sqs-block-html{
   padding-bottom:0em;
   
 }
+
 //tighten area below header
 #page{
   margin-top:5px;
