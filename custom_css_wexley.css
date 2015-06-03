@@ -28,7 +28,7 @@ div.sqs-block-content{
   
 }
 
-// trying to get the gallery image to not float under header
+// DEV gallery image to not float under header
 div#galleryWrapper{
 // for dev only:
   //background-color:pink;
@@ -59,6 +59,13 @@ div#block-yui_3_17_2_7_1432838437601_7466, div#block-yui_3_17_2_25_1433268537474
     padding-top:0px;
     margin-top:-18px;
   
+}
+
+// reduce top margin on bathrooms page gallery block 
+div#block-yui_3_17_2_29_1432080118608_5136{
+    padding-top:0px;
+    margin-top:-18px;
+
 }
 
 // Force top nav to be visible when in gallery viewing mode
