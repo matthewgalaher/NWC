@@ -130,23 +130,21 @@ div#block-2e725e58344bb7b9faad.sqs-block.html-block.sqs-block-html{
   margin-top:5px;
   
 }
-
-// our team center captions
+// our team captions
 div.summary-title{
-text-align: center !important;
+  text-align: center !important;
   margin-top:-.5em !important;
+font-size: 1.3em !important;
+  font-weight: 300;
 }
 
+// Our Story 
+div#block-yui_3_17_2_85_1433268537474_17568,div#block-20d683dca7743deb1a6b {
+  margin-bottom:0px !important;
+  padding-bottom:0px !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+div#page-555bd1b1e4b0db4a78d478b5{
+    margin-top:1em !important;  
+}
 
