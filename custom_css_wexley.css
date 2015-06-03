@@ -134,8 +134,10 @@ div#block-2e725e58344bb7b9faad.sqs-block.html-block.sqs-block-html{
 div.summary-title{
   text-align: center !important;
   margin-top:-.5em !important;
+
 font-size: 1.3em !important;
   font-weight: 300;
+     margin-bottom:1em !important;
 }
 
 // Our Story 
@@ -148,3 +150,10 @@ div#page-555bd1b1e4b0db4a78d478b5{
     margin-top:1em !important;  
 }
 
+// map border
+div.gm-style{
+// box sizing required to work around overflow hidden
+  box-sizing:border-box;
+     border: 1px #5C7162 solid;
+  
+}
