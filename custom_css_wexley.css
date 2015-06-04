@@ -140,14 +140,28 @@ font-size: 1.3em !important;
      margin-bottom:1em !important;
 }
 
+// global page text formating
+p{
+  font-size:16px;
+  line-height:21px;
+  margin-bottom:14px;
+  
+}
+
 // Our Story 
 div#block-yui_3_17_2_85_1433268537474_17568,div#block-20d683dca7743deb1a6b {
   margin-bottom:0px !important;
   padding-bottom:0px !important;
 }
-
+// Our Story snug up top text under 'Our Vision'
 div#page-555bd1b1e4b0db4a78d478b5{
-    margin-top:1em !important;  
+    margin-top:1em !important; 
+  
+}
+
+div#page-header-555bd1b1e4b0db4a78d478b5{
+  margin-bottom:-1.5em;
+  
 }
 
 // map border
