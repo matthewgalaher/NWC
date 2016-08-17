@@ -1,0 +1,247 @@
+/* 
+-----------------------------------------
+imaginationseverything CSS START: 
+-----------------------------------------
+*/
+
+div.info.portfolio_content blockquote p {
+    color: #ffffff !important;
+}
+
+.portfolio_detail .portfolio_categories {
+    display: none !important;
+}
+
+.single-portfolio_page .flexslider img {
+    max-height: 700px ;
+    object-fit: contain ;
+}
+
+.main_menu {
+    position: inherit !important;
+    left: auto !important;
+    text-align: center !important;
+}
+.main_menu > ul {
+    position: inherit !important;
+    left: auto !important;
+}
+nav.main_menu ul li {
+    float: none !important;
+}
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    nav.main_menu > ul > li > a {
+        font-size: 13px !important;
+        padding: 0 2px !important;
+    }
+}
+
+@media screen and (max-width: 1000px) { 
+    header { 
+    position: fixed !important; 
+    left: 0px !important; 
+    top: 0px !important; 
+    } 
+    .content { 
+    top: 138px !important; 
+    } 
+    .header_bottom {
+         background-color:rgba(61, 85, 136, .7) !important;;
+    }
+    .header_top .right {
+        display: none !important
+    }
+    footer {
+        padding-top: 138px !important;
+    }
+}
+/* 
+-----------------------------------------
+imaginationseverything CSS END: 
+-----------------------------------------
+*/
+
+
+/* 
+-----------------------------------------
+MG CSS Start: 
+-----------------------------------------
+*/
+
+/* Override default link style for contact info in footer: */
+.textwidget a:link {
+    color: #ffffff;
+}
+.textwidget  a:visited {
+    color: #ffffff;
+}
+.textwidget  a:hover {
+    color: #ffffff;
+}
+.textwidget a:active {
+    color: #ffffff;
+}
+
+/* Override default link style for mobile scrubber menu (the 3 small horizontal bars): */
+body > div.wrapper > div > header > div > div > div.header_bottom.clearfix > div.header_inner_left > div.mobile_menu_button > span{
+color: #fff;
+}
+
+/* Add left padding to words of mobile menu: */
+#mobile-menu-item-16435, 
+#mobile-menu-item-16282,
+#mobile-menu-item-16291,
+#mobile-menu-item-17252,
+#mobile-menu-item-16183,
+#mobile-menu-item-16180 {
+padding-left: 1em;
+}
+
+/* First instance of Nicks photo on About Us Fix Caption Margin: */
+body > div.wrapper > div > div > div > div.full_width > div > div:nth-child(6) > div > div > div.wpb_column.vc_column_container.vc_col-sm-4 > div > div > div:nth-child(4){
+    margin-top: 20px !important;
+}
+
+/* The following media sizes are for for iPhone. There would need to be additional rules for additional screen sizes */
+ 
+@media screen and (min-device-width : 320px) and (max-device-width : 736px){
+
+/* Required because at 100% it apparently pops out of the flow and pushes the mobile nav down too far */
+nav.mobile_menu{
+    width: 99% !important;
+}
+
+/* About Us page team bios add margin bottom to text: */
+div.wpb_text_column.wpb_content_element > div > p{
+    margin-bottom: 22px !important;
+}
+
+/*  Parent Gallery Pages create margin between preview images START */
+body > div.wrapper > div > div > div > div > div > div:nth-child(2) > div > div > div:nth-child(1){
+    margin-bottom: 25px !important;
+}
+
+body > div.wrapper > div > div > div > div > div > div:nth-child(2) > div > div > div:nth-child(2){
+    margin-bottom: 25px !important;
+}
+
+body > div.wrapper > div > div > div > div > div > div:nth-child(3) > div > div > div:nth-child(1){
+    margin-bottom: 25px !important;
+}
+
+body > div.wrapper > div > div > div > div > div > div:nth-child(3) > div > div > div:nth-child(2){
+    margin-bottom: 25px !important;
+}
+/*  Parent Gallery Pages create margin between preview images  END */
+
+/* About Us: Center first instance of Nick's photo START */
+body > div.wrapper > div > div > div > div.full_width > div > div:nth-child(2) > div > div > div > div > div > div:nth-child(3) > div > p:nth-child(1) > span {
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+body > div.wrapper > div > div > div > div.full_width > div > div:nth-child(2) > div > div > div > div > div > div:nth-child(3) > div > p:nth-child(1) > span > img.alignleft {
+    display: block !important;
+    margin: 0 auto !important;
+    float:none !important;
+    margin-bottom: 20px !important;
+}
+/* About Us: Center first instance of Nick's photo END */
+
+/*  Tighten up white space at bottom of page (above red footer):   */
+body > div.wrapper > div.wrapper_inner > footer.uncover{
+    padding: 0px 0px 0px 0px !important;
+}
+
+/*  Tighten up white space at top of page (below top image) */
+body > div.wrapper > div > div > div > div.container{
+     margin-top:-10px !important;
+}
+
+/* Tighten up layout Google map on Contact Us page */
+.google_map{
+    height : 130px !important;
+}
+
+/* on small screen hide 'How to find us. We look forward to hearing from you' on Contact Us page: */
+body.page-id-1452 > div.wrapper > div > div > div > div.container > div > div > div.contact_section.contact_section_position_center{
+     display: none;
+}
+
+/* Tighten up contact text on white background on Contact Us page */
+body.page-id-1452 > div.wrapper > div > div > div > div.container > div > div > div.contact_info > div:nth-child(1) > div > div > div > div > div:nth-child(3) > div > p {
+margin-top: 0px !important;
+margin-bottom: 8px !important;
+line-height: 1.3em !important;
+}
+
+.content { 
+/* This adjusts how far the main content is pushed down from the top of the page and is necessary to adjust so that that matches the div heights below */
+    top: 65px !important;  
+
+} 
+
+body.page-id-1452 .content{
+    min-height:250px !important;
+}
+
+body > div.wrapper > div > header{
+        height:65px !important;
+}
+
+body > div.wrapper > div > header > div{
+        height:65px !important;
+}
+
+body > div.wrapper > div > header > div > div > div.header_bottom.clearfix{
+        height:65px !important;
+}
+
+body > div.wrapper > div > header > div > div > div.header_bottom.clearfix > div.header_inner_left > div.mobile_menu_button{
+        height:65px !important;
+}
+
+body > div.wrapper > div > header > div > div > div.header_bottom.clearfix > div.header_inner_left > div.mobile_menu_button > span {
+        height:65px !important;
+}
+
+body > div.wrapper > div > header > div > div > div.header_bottom.clearfix > div.header_inner_left > div.logo_wrapper{
+         height:65px !important; 
+}
+
+body > div.wrapper > div > header > div > div > div.header_bottom.clearfix > div.header_inner_left > div.logo_wrapper > div{
+         height:65px !important; 
+}
+
+body > div.wrapper > div > header > div > div > div.header_bottom.clearfix > div.header_inner_left > div > div.q_logo{
+         height:65px !important; 
+}
+
+body > div.wrapper > div > header > div > div > div.header_bottom.clearfix > div.header_inner_left > div.logo_wrapper > div > a {
+   height:65px !important;
+
+   /* the following two lines are required to get 
+   the logo so float vertically in the middle: */
+   display: table-cell !important;
+   vertical-align: middle !important;
+}
+
+/* Resize Weitzer Company logo */
+body > div.wrapper > div > header > div > div > div.header_bottom.clearfix > div.header_inner_left > div.logo_wrapper > div > a > img.mobile {
+	 height:75% !important; 
+}
+
+/* Move 'Back To Top' button (circle with arrow) further into bottom right corner */
+#back_to_top {
+    bottom: 5px !important;
+    right: 5px !important;
+}
+
+/* end of media rules for iPhone */
+}
+
+/* 
+-----------------------------------------
+MG CSS End
+-----------------------------------------
+*/
